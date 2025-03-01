@@ -1,3 +1,8 @@
+I bulit complete frontend and upload this project from My learning portal kindly use following credentials to access the webapp
+
+username: rahul
+password": rahul@2021
+
 In this project, let's build **Nxt Watch** by applying the concepts we have learned till now.
 
 ### Refer to the videos below:
