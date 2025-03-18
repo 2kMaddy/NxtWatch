@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   font-family: Roboto;
@@ -94,4 +95,8 @@ export const FailureDescription = styled.p`
 export const GamesContainer = styled(Container)`
   flex-direction: column;
   width: 100%;
+  margin: 10vh 0 0 20vw;
+  @media (max-width: 767px) {
+    margin: 10vh 0 0 0;
+  }
 `

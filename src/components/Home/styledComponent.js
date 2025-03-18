@@ -6,17 +6,23 @@ export const HomeContainer = styled.div`
   height: 100%;
   font-family: Roboto;
   background-color: ${prop => (prop.theme === true ? '#181818' : '#f9f9f9')};
+  background-size: cover;
 `
 
 export const Container = styled.div`
   display: flex;
-  height: 90vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100%;
 `
 export const VideoContainer = styled(Container)`
   flex-direction: column;
   padding: 12px;
   width: 100%;
+  margin: 10vh 0 0 20vw;
+  @media (max-width: 767px) {
+    margin: 10vh 0 0 0;
+  }
 `
 
 export const LoaderContainer = styled(Container)`
@@ -54,7 +60,6 @@ export const VideoListContainer = styled.ul`
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
-  overflow-x: auto;
 `
 export const FailureContainer = styled.div`
   display: flex;

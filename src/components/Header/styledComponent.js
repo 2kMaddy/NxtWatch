@@ -7,6 +7,8 @@ export const HeaderContainer = styled.div`
   padding: 20px 40px;
   background-color: ${prop => (prop.theme === true ? '#0f0f0f' : '#ffffff')};
   width: 100%;
+  position: fixed;
+  top: 0;
   @media (max-width: 767px) {
     padding: 20px;
   }

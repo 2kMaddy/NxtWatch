@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  height: 90vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100%;
   font-family: Roboto;
 `
@@ -21,7 +22,10 @@ export const VideoContainer = styled(Container)`
   display: flex;
   flex-direction: column;
   padding: 30px;
-  overflow-x: auto;
+  margin: 10vh 0 0 20vw;
+  @media (max-width: 767px) {
+    margin: 10vh 0 0 0;
+  }
 `
 
 export const YoutubeVideoContainer = styled.div`

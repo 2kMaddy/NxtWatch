@@ -8,6 +8,9 @@ export const NavContainer = styled.div`
   background-color: ${prop => (prop.theme === true ? '#0f0f0f' : '#ffffff')};
   width: 20vw;
   color: ${prop => (prop.theme === true ? '#ffffff' : '#0f0f0f')};
+  position: fixed;
+  top: 66px;
+  left: 0;
   @media (max-width: 767px) {
     display: none;
   }
