@@ -1,7 +1,7 @@
 # YouTube Clone Web App
 
 ## 📌 Overview
-This is a YouTube Clone Web Application built using modern web technologies. It's not a full clone of youtube just like that. I done the frontend part of this webapp.
+This is a YouTube Clone Web Application built using modern web technologies. It's not a full clone of YouTube, just something similar. I done the frontend part of this webapp.
 
 ## 🎯 Features
 - User Authentication (Login / Logout)
